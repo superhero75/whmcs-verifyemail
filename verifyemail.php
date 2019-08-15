@@ -43,7 +43,7 @@ if($data === true){
       <p class="col-sm-6 col-sm-offset-3 lead bg-<?=($_GET['status'] == 'true') ? 'success': 'danger'; ?>">
         <strong>
           <span aria-hidden="true" class="icon icon-<?=($_GET['status'] == 'true') ? 'circle': 'ban'; ?>"></span>
-          <?=($_GET['status'] == 'true') ? 'Success!': 'Warning!'; ?>
+          <?=($_GET['status'] == 'true') ? 'Success!': 'A verification link has been sent to your email!'; ?>
         </strong>
         <br>
         <?=$data?>
